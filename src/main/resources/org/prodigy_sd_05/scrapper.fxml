@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="534.0" prefWidth="611.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.prodigy_sd_05.ScraperController">
+   <children>
+         <Label layoutX="116.0" layoutY="20.0" opacity="0.53" text="Book Scraper">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Label>
+
+         <ListView fx:id="listView" layoutX="20.0" layoutY="60.0" prefHeight="400.0" prefWidth="300.0" />
+
+         <Label layoutX="350.0" layoutY="60.0" text="Selected Book:" />
+         <Label fx:id="labelFrom" layoutX="350.0" layoutY="90.0" />
+
+         <Label layoutX="350.0" layoutY="130.0" text="Price:" />
+         <Label fx:id="labelPrice" layoutX="350.0" layoutY="160.0" />
+
+         <Label layoutX="350.0" layoutY="200.0" text="Rating:" />
+         <Label fx:id="labelRating" layoutX="350.0" layoutY="230.0" />
+
+         <Button fx:id="scrapeBooksButton" layoutX="20.0" layoutY="480.0" onAction="#handleScrapeBooks" prefHeight="33.0" prefWidth="134.0" text="Scrape Books" />
+      <Button fx:id="downloadCSVButton" layoutX="186.0" layoutY="480.0" onAction="#handleDownloadCSV" prefHeight="33.0" prefWidth="134.0" text="Download CSV " />
+   </children>
+</AnchorPane>

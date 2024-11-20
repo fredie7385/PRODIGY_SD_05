@@ -1,0 +1,50 @@
+/* styles.css */
+
+
+.label {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333;
+    -fx-padding: 10px;
+}
+
+
+.list-view {
+    -fx-background-color: #f9f9f9;
+    -fx-border-color: #cccccc;
+    -fx-border-width: 1px;
+    -fx-padding: 5px;
+}
+
+
+.list-view .list-view-cell {
+    -fx-padding: 10px;
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #333333;
+}
+
+
+.list-view .list-view-cell:hover {
+    -fx-background-color: #e0e0e0;
+}
+
+
+.button {
+    -fx-background-color: #007bff;
+    -fx-text-fill: white;
+
+    -fx-background-radius: 5px;
+}
+
+
+.button:hover {
+    -fx-background-color: #0056b3;
+}
+
+
+.label {
+    -fx-font-size: 14px;
+    -fx-text-fill: #555555;
+    -fx-padding: 5px;
+}
+
